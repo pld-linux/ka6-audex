@@ -76,6 +76,8 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/audex
 %{_desktopdir}/org.kde.audex.desktop
+%dir %{_datadir}/audex
+%dir %{_datadir}/audex/images
 %{_datadir}/audex/images/cdcase_wo_latches.png
 %{_datadir}/audex/images/latches.png
 %{_iconsdir}/hicolor/scalable/apps/org.kde.audex.svg
