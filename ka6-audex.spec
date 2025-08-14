@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	25.04.3
+%define		kdeappsver	25.08.0
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		audex
 Summary:	An audio grabber tool for CD-ROM drives
 Name:		ka6-%{kaname}
-Version:	25.04.3
+Version:	25.08.0
 Release:	1
 License:	GPL v2+/LGPL v2.1+/BSD-3-Clause/CC0-1.0/MIT
 Group:		X11/Applications
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	6243ec1edf82105889c4074aff441ff4
+# Source0-md5:	6d47bed5472c52d75ecfbd0e7609acb6
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= 6.5
 BuildRequires:	gettext-devel
