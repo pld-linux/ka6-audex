@@ -8,7 +8,7 @@
 Summary:	An audio grabber tool for CD-ROM drives
 Name:		ka6-%{kaname}
 Version:	25.08.3
-Release:	1
+Release:	2
 License:	GPL v2+/LGPL v2.1+/BSD-3-Clause/CC0-1.0/MIT
 Group:		X11/Applications
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
