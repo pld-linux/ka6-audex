@@ -6,6 +6,7 @@
 %define		qtver		5.15.2
 %define		kaname		audex
 Summary:	An audio grabber tool for CD-ROM drives
+Summary(pl.UTF-8):	Aplikacja do zgrywania z płyt CD
 Name:		ka6-%{kaname}
 Version:	26.04.1
 Release:	1
@@ -45,6 +46,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Audex is an audio grabber tool for CD-ROM drives built with KDE
 Frameworks.
+
+%description -l pl.UTF-8
+Audex to aplikacja do zgrywania z płyt CD zbudowana z użyciem
+szkieletów KDE.
 
 %prep
 %setup -q -n %{kaname}-%{version}
