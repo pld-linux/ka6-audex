@@ -1,19 +1,19 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	26.08.1
+%define		kdeappsver	26.08.2
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		audex
 Summary:	An audio grabber tool for CD-ROM drives
 Summary(pl.UTF-8):	Aplikacja do zgrywania z płyt CD
 Name:		ka6-%{kaname}
-Version:	26.08.1
+Version:	26.08.2
 Release:	1
 License:	GPL v2+/LGPL v2.1+/BSD-3-Clause/CC0-1.0/MIT
 Group:		X11/Applications
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	f6bb459e1c1bc78e0da8dd3d0a6464df
+# Source0-md5:	2f7d75d8838de8f0bafd8a5087a7cd6a
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= 6.5
 BuildRequires:	gettext-devel
